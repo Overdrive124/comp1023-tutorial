@@ -1,5 +1,5 @@
 # The contents of the file are stored in a variable
-$Content = Get-Content -Path 'textfiles/test.txt'
+$Content = Get-Content -Path 'textfiles/important.txt'
 
 # If the test file contains what we want it to, it passes the check, write a successs message and succeed
 if ($Content -match 'Fish') {
